@@ -1,5 +1,29 @@
 p{
-  color: blue;
-  font-size: 25px;
-  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+}
+
+a{
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+}
+
+body{
+	background-image: url("back.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+}
+
+#container{
+	background-color:rgba(0,0,0,0.5);
+	height: 250px;
+	width: 250px;
+	float: right;
+}
+
+$content{
+	overflow:auto;
+	height: 250px;
+	width: 250px;
 }
