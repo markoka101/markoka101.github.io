@@ -1,7 +1,7 @@
 p{
   color: white;
-  font-size: 30px;
-  text-align: right;
+  font-size: 18px;
+  text-align: left;
 }
 
 a{
@@ -9,21 +9,44 @@ a{
 	font-size: 25px;
 }
 
+b {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
 body{
+	margin:0;
+	padding:0;
 	background-image: url("back.jpg"); 
 	background-repeat: no-repeat;
 	background-size: 100% 100vh;
 }
 
 #container{
-	background-color:rgba(0,0,0,0.5);
-	height: 250px;
-	width: 250px;
+	background-color:rgba(0,0,0,0.4);
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60%;
+	width: 40%;
 	float: right;
 }
 
-$content{
+#content{
+	background-color:rgba(1,0,0,0.2);
 	overflow:auto;
-	height: 250px;
-	width: 250px;
+	height: 60%;
+	width: 96.5%;
+}
+
+#container1{
+	overflow: auto;
+	background-color:rgba(40,131,241,0.4);
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	right: 2px;
+	height: 60%;
+	width: 40%;
+	float: right;
 }
